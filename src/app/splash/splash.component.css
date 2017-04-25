@@ -1,0 +1,14 @@
+.ab-splash {
+    background-color: #529DE9;
+    color: #FFF;
+}
+.container {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.ab-primary {
+    font-weight: 400;
+}
+.ab-secondary {
+    font-weight: 100;
+}

@@ -1,0 +1,25 @@
+input {
+    width: 100%;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+button {
+    width: 100%;
+    border-radius: 0px;
+    background-color: #016ED5;
+    margin-bottom: 10px;
+}
+button:hover {
+    background-color: #1658AF;
+}
+.ab-slack {
+    background-color: #E3E4E6;
+    padding-top: 0px;
+    border-radius: 0px;
+}
+.slack-logo {
+    padding-bottom: 2px;
+}
+.ab-notice {
+    padding: 25px;
+}

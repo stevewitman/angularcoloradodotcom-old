@@ -1,0 +1,61 @@
+nav {
+    background-color: #016ED5;
+}
+.navbar {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border: 0px;
+    border-radius: 0;
+    margin-bottom: 0px;
+}
+
+button {
+    border-radius: 0px;
+}
+.img-logo {
+    height: 48px;
+}
+.img-slack {
+    height: 32px;
+    border-radius: 5px;
+    margin-right: 8px;
+    margin-top: 3px;
+}
+.img-meetup {
+    height: 32px;
+    border-radius: 5px;
+    margin-right: 8px;
+    margin-top: 3px;
+}
+.img-slack-button {
+    background-color: #016ED5;
+    border: none;
+    padding: 6px 24px ;
+    color: #FFF;
+    border-radius: 0px;
+}
+a.btn.btn-default.img-slack-button:hover {
+    background-color: #1658AF;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+}
+#bootstrap-hamburger .icon-bar {
+  background-color: #FFF;
+}
+#bootstrap-hamburger:hover .icon-bar {
+  background-color: #FFF;
+}
+.navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+button.navbar-toggle.collapsed:hover {
+    background-color: #1658AF;
+}
+.navbar-default .navbar-toggle:focus {
+    background-color: #1658AF;
+}
+a {
+    padding: 0px;
+    margin: 0px;
+}

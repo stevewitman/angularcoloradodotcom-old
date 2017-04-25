@@ -1,0 +1,35 @@
+<div class="ab-slack">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <h2 class="text-center">Join our<img class="slack-logo" src="assets/images/ab-slack-logo.png" alt="">Team</h2>  
+          <div class="before-request" *ngIf="submitted==false">
+            <div class="row">
+                <div class="col-sm-4">
+                <input placeholder="Your Email Address" class="form-control"
+                    [(ngModel)]="item.email"
+                    required
+                    #email='ngModel'>
+                </div>
+                <div class="col-sm-4">
+                <input placeholder="First & Last Name" class="form-control"
+                    [(ngModel)]="item.name"
+                    required
+                    #name='ngModel'>
+                </div>
+                <div class="col-sm-4">
+                <button class="btn btn-primary" (click)="createItem()" [disabled]="!email.valid || !name.valid">Request Slack Invite</button>
+                </div>
+            </div>
+
+            <div class="text-center ab-notice">
+                <span>Please allow up to 24 hours for Slack invite.</span>
+            </div>
+        </div>
+        <div class="after-request text-center" *ngIf="submitted==true">
+            <h4>Thank you for joining our team. Please allow up to 24 hours for us to process the Slack Invite</h4>
+        </div> 
+      </div>
+    </div>
+  </div>
+</div>
