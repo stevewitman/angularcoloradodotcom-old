@@ -27,3 +27,11 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
+scp -i ~/.ssh/btrakDevCloud.pem junk-steve.txt ec2-user@ec2-35-167-56-10.us-west-2.compute.amazonaws.com:~
+
+sudo chmod 400 ~/.ssh/btrakDevCloud.pem 
+
+Permissions 0644 for '.pem' are too open.
+It is required that your private key files are NOT accessible by others.
+
+scp ~/projects/bt/junk-steve.txt ec2-user@ec2-35-167-56-10.us-west-2.compute.amazonaws.com:~
