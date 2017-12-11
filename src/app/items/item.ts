@@ -4,4 +4,5 @@ export class Item {
     name: string;
     timeStamp: number;
     sent: boolean = false;
+    team: string = 'angular';
 }
